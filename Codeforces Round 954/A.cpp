@@ -17,7 +17,22 @@ using namespace std;
 
 void solve()
 {
-    int n;
+    vector<int> points(3);
+
+    forN(3)
+    {
+        cin >> points[i];
+    }
+
+    int answer = INT_MAX;
+    forN(3)
+    {
+        int targetPoint = points[i];
+        int tempAnswer = abs(points[0] - targetPoint) + abs(points[1] - targetPoint) + abs(points[2] - targetPoint);
+        answer = min(answer, tempAnswer);
+    }
+
+    cout << answer << el;
 }
 
 int main()
