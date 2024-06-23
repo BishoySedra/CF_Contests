@@ -1,2 +1,3 @@
 # CF_Contests
-This repo is for showcasing my solutions for each contest problems I have participated on Codeforces.
+
+- [Codeforces Round 954](https://codeforces.com/contests/1986)
