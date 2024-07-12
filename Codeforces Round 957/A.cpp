@@ -2,6 +2,7 @@
 #include <bitset>
 
 #define boost ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+
 #define el "\n"
 #define ll long long
 #define ON(n, k) (n | (1 << k))
